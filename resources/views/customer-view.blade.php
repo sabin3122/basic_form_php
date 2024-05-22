@@ -66,8 +66,7 @@
                   <a href="{{route('customer.delete',['id'=>$customer->customer_id])}}">
                   <button type="button" class="btn btn-danger">Delete</button>
                   </a>
-
-                  <button type="button" class="btn btn-primary">Edit</button>
+                  <a href="{{route("customer.edit,['id']")}}"><button type="button" class="btn btn-primary">Edit</button></a>
               </td>
             </tr>
             @endforeach
